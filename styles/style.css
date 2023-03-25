@@ -276,6 +276,8 @@
   box-sizing: border-box;
   width: 360px;
   height: 420px;
+  overflow: hidden;
+  white-space: wrap;
 }
 
 .card__content {
@@ -323,12 +325,23 @@
 .membership__steps {
   list-style-type: none;
   padding: 0;
-  margin: 100px 0 0;
-  /* Add styles */
+  margin: 100px 150px 0px 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .step {
-  /* Add styles */
+  max-width: 220px;
+  flex-wrap: wrap;
+  flex-basis: auto;
+}
+
+.step__block {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .step__title {
