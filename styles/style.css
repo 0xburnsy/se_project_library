@@ -330,12 +330,13 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  column-gap: 40px;
 }
 
 .step {
   max-width: 220px;
   flex-wrap: wrap;
-  flex-basis: auto;
+  flex-basis: 220px;
 }
 
 .step__block {
@@ -346,7 +347,7 @@
 
 .step__title {
   margin: 0;
-  padding-right: 110px;
+  padding: 0 117px 0 0;
   font-size: 20px;
   line-height: 30px;
   font-weight: 700;
