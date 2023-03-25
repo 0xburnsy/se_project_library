@@ -346,6 +346,7 @@
 
 .step__title {
   margin: 0;
+  padding-right: 110px;
   font-size: 20px;
   line-height: 30px;
   font-weight: 700;
