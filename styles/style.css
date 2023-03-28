@@ -45,6 +45,10 @@
   font-weight: bold;
 }
 
+.nav__link:hover {
+  color: #1f69c9;
+}
+
 .header__title {
   display: flex;
   max-width: 544px;
@@ -89,6 +93,10 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.header__link:hover {
+  color: #1f69c9;
 }
 
 .header__address {
@@ -161,10 +169,14 @@
   margin: 40px 0 60px;
 }
 
-.events__more {
+.events__link {
   margin-top: 60px;
   color: #2f80ed;
   text-decoration: none;
+}
+
+.events__link:hover {
+  color: #1f69c9;
 }
 
 .events__cover {
@@ -246,6 +258,7 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
+  color: white;
 }
 
 .staff__subtitle {
@@ -254,6 +267,7 @@
   line-height: 30px;
   font-weight: 400;
   margin: 0;
+  color: white;
 }
 
 .staff__ul-container {
@@ -276,7 +290,7 @@
   box-sizing: border-box;
   width: 360px;
   height: 420px;
-  overflow: hidden;
+  overflow: scroll;
   white-space: wrap;
 }
 
@@ -340,9 +354,6 @@
 }
 
 .step__block {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
 }
 
 .step__title {
@@ -417,20 +428,28 @@
 .footer {
   box-sizing: border-box;
   background-color: #1f1f1f;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 60px 102px 60px 80px;
 }
 
 .footer__columns {
+  display: flex;
+  justify-content: right;
+  align-items: stretch;
 }
 
 .footer__column_content_hours {
+  margin-left: auto;
 }
 
 .footer__column_content_social {
+  margin-left: 100px;
 }
 
 .footer__logo {
-  max-width: 116px;
-  max-height: 21px;
+  max-width: 153px;
 }
 
 .footer__list {
@@ -441,20 +460,38 @@
 }
 
 .footer__list-item {
+  margin-bottom: 16px;
+}
+
+.footer__list-item:last-of-type {
+  margin: 0;
 }
 
 .footer__column-heading {
+  margin: 0 0 20px;
 }
 
 .footer__column-link {
+  display: flex;
+  align-items: center;
   color: white;
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
 }
 
+.footer__column-link:hover {
+  color: #c1c1c1;
+}
+
 .footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
 
 .footer__copyright {
+  width: 16px;
+  height: 16px;
+  margin: 108px 0 0;
 }
