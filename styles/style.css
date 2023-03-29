@@ -169,13 +169,13 @@
   margin: 40px 0 60px;
 }
 
-.events__link {
+.events__more {
   margin-top: 60px;
   color: #2f80ed;
   text-decoration: none;
 }
 
-.events__link:hover {
+.events__more:hover {
   color: #1f69c9;
 }
 
@@ -443,7 +443,8 @@
 }
 
 .footer__logo {
-  max-width: 153px;
+  width: 116px;
+  height: 21px;
 }
 
 .footer__list {
