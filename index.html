@@ -10,7 +10,6 @@
   </head>
 
   <body>
-    <!-- Wrap the entire page content in a new div with the page class. Remember to add the closing tag -->
     <div class="page">
       <header class="header">
         <nav class="nav">
@@ -19,22 +18,27 @@
             alt="Practicum Library Logo"
             class="logo"
           />
-          <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
           <ul class="nav__links">
             <li>
-              <a class="nav__link">Reader picks</a>
+              <a class="nav__link" href="#reader-picks" id="reader-picks-link"
+                >Reader picks</a
+              >
             </li>
             <li>
-              <a class="nav__link">Events</a>
+              <a class="nav__link" href="#events" id="events-link">Events</a>
             </li>
             <li>
-              <a class="nav__link">Become a member</a>
+              <a class="nav__link" href="#become-member" id="become-member-link"
+                >Become a member</a
+              >
             </li>
             <li>
-              <a class="nav__link">About</a>
+              <a class="nav__link" href="#about" id="about-link">About</a>
             </li>
             <li>
-              <a class="nav__link">Contacts</a>
+              <a class="nav__link" href="#footer-section" id="contact-link"
+                >Contacts</a
+              >
             </li>
           </ul>
         </nav>
@@ -51,7 +55,7 @@
           class="header__image header__image_element"
         />
         <div class="header__footer">
-          <a class="header__link">About the library &darr;</a>
+          <a class="header__link" href="#about">About the library &darr;</a>
           <p class="header__address">
             200 Success Avenue, The Town of Practicum
           </p>
@@ -59,7 +63,7 @@
       </header>
 
       <main class="content">
-        <section class="events">
+        <section class="events" id="events">
           <div class="events__content">
             <h2 class="events__heading">Upcoming events:</h2>
             <h3 class="events__title">
@@ -139,10 +143,7 @@
           </div>
         </section>
 
-        <section class="staff">
-          <!-- --------------------------------------------------------------- -->
-          <!--        Don't uncomment until the final project stage            -->
-          <!-- --------------------------------------------------------------- -->
+        <section class="staff" id="reader-picks">
           <h2 class="staff__title">Reader picks</h2>
           <p class="staff__subtitle">That our readers love</p>
           <ul class="staff__ul-container">
@@ -175,7 +176,6 @@
                 <p class="card__footer">Ernest Cline</p>
               </div>
             </li>
-
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">It</h3>
@@ -205,7 +205,6 @@
                 <p class="card__footer">Stephen King</p>
               </div>
             </li>
-
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">Harry Potter</h3>
@@ -233,7 +232,6 @@
                 <p class="card__footer">J.K. Rowling</p>
               </div>
             </li>
-
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">Dune</h3>
@@ -266,11 +264,7 @@
             </li>
           </ul>
         </section>
-
-        <section class="membership">
-          <!-- --------------------------------------------------------------- -->
-          <!--         Don't uncomment until the final project stage           -->
-          <!-- --------------------------------------------------------------- -->
+        <section class="membership" id="become-member">
           <h2 class="membership__title">Becoming a library member is easy!</h2>
           <ul class="membership__steps">
             <li class="step step__block">
@@ -325,11 +319,7 @@
             </li>
           </ul>
         </section>
-
-        <section class="about">
-          <!-- --------------------------------------------------------------- -->
-          <!--          Don't uncomment until the final project stage          -->
-          <!-- --------------------------------------------------------------- -->
+        <section class="about" id="about">
           <h2 class="about__title">About the library</h2>
           <div class="about__content">
             <p class="about__paragraph">
@@ -353,7 +343,7 @@
           <div class="about__circle"></div>
         </section>
       </main>
-      <footer class="footer">
+      <footer class="footer" id="footer-section">
         <div class="footer__columns">
           <div class="footer__column">
             <img
