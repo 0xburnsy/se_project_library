@@ -386,7 +386,7 @@
   font-weight: 500;
   z-index: 1;
   max-width: 154px;
-  position: relative;
+  position: absolute;
 }
 
 .about__content {
@@ -398,16 +398,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  left: 400px;
-  bottom: 234px;
+  padding-left: 250px;
   z-index: 2;
 }
 
 .about__paragraph {
   margin: 0 0 32px;
   column-gap: 32px;
-  z-index: 1;
+  z-index: 3;
 }
 
 .about__circle {
@@ -415,9 +413,9 @@
   width: 495px;
   height: 495px;
   border-radius: 50%;
-  position: relative;
-  top: -250px;
-  left: -125px;
+  position: absolute;
+  top: -121px;
+  left: -91px;
   z-index: 0;
 }
 
