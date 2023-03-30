@@ -75,9 +75,6 @@
   position: absolute;
   top: 135px;
   right: 20px;
-}
-
-.header__image_element {
   max-width: 636px;
 }
 
@@ -410,7 +407,7 @@
   margin: 0 0 32px;
 }
 
-.about__paragraph:last-child {
+.about__paragraph:last-of-type {
   margin: 0 0 0 0;
 }
 
